@@ -23,8 +23,9 @@ header{
 }
 
 header .menu{
-    margin: 48px 0;
+    margin: 40px 0 20px 0;
     text-align: right;
+    scroll-margin-top: 700px;
 }
 
 header .menu a{
@@ -43,7 +44,8 @@ header .menu a:hover{
 
 header .contenedor-texto{
     display: flex;
-    margin: 190px 0;
+    margin: 150px 0 150px 0;
+    padding-top: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -283,10 +285,16 @@ footer .redes-sociales a i:hover{
         margin: 0 25px;
     }
     header .contenedor-texto{
-        margin: 100px 0;
+        margin: 60px 0 100px 0;
     }
     
     .main .trabajos{
         padding: 0px;
     }
+}
+
+/* SCROLL DEL NAV */
+
+html{
+    scroll-behavior: smooth;
 }
